@@ -10,11 +10,11 @@
 </p>
 
 <p align="center">
-  <img src="https://telegra.ph/file/7e61fe06a9c02747249c4.jpg">
+  <img src="https://te.legra.ph/file/3ca1fd20c61a98b35e166.jpg">
 </p>
 
-# YoneRobot
-Me On Telegram [✨Yone✨](https://t.me/Yone_Robot)
+# swagger bot
+Me On Telegram [✨swagger✨](https://t.me/swagger_manager_bot)
 
 ## How To Host
 The easiest way to deploy this Bot
