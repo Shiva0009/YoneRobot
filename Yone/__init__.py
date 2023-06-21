@@ -27,10 +27,10 @@ if sys.version_info[0] < 3 or sys.version_info[1] < 6:
 ENV = bool(os.environ.get("ENV", False))
 
 if ENV:
-    TOKEN = os.environ.get("TOKEN", None)
+    TOKEN = os.environ.get("TOKEN", 5901539309:AAHi49v-3IEQRJ98-Obx58zuuXpD68GLUOQ)
 
     try:
-        OWNER_ID = os.environ.get("OWNER_ID", None)
+        OWNER_ID = os.environ.get("OWNER_ID", 5620092357)
     except ValueError:
         raise Exception("Your OWNER_ID env variable is not a valid integer.")
     try:
@@ -44,24 +44,24 @@ if ENV:
     except ValueError:
         raise Exception("Your requester list does not contain valid integers.")
     try:
-        API_ID = int(os.environ.get("API_ID", None))
+        API_ID = int(os.environ.get("API_ID", 27926792))
     except ValueError:
         raise Exception("Your API_ID env variable is not a valid integer.")
 
     try:
-        API_HASH = os.environ.get("API_HASH", None)
+        API_HASH = os.environ.get("API_HASH", 71baac4bfd54337b396c525c9fb1c437)
     except ValueError:
         raise Exception("Please Add Hash Api key to start the bot")
 
-    DB_URI = os.environ.get("DATABASE_URL")
+    DB_URI = os.environ.get("postgres://qszfsijv:y6sYqkEb8Z9lFGBmriG7AYjbSbgAJBVk@peanut.db.elephantsql.com/qszfsijv")
     KORA_API_TOKEN = os.environ.get("KORA_API_TOKEN")
     PHOTO = os.environ.get("PHOTO")
     WORKERS = int(os.environ.get("WORKERS", 8))
     ALLOW_EXCL = os.environ.get('ALLOW_EXCL', False)
     ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True)
 
-    OWNER_USERNAME = os.environ.get("OWNER_USERNAME", None)
-    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", None)
+    OWNER_USERNAME = os.environ.get("demure_shiv", None)
+    SUPPORT_CHAT = os.environ.get("-1001883990501", None)
     EVENT_LOGS = os.environ.get("EVENT_LOGS", None)
     JOIN_LOGGER = os.environ.get("JOIN_LOGGER", None)
 
