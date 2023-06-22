@@ -27,10 +27,10 @@ if sys.version_info[0] < 3 or sys.version_info[1] < 6:
 ENV = bool(os.environ.get("ENV", False))
 
 if ENV:
-    TOKEN = os.environ.get("TOKEN", 5901539309:AAHi49v-3IEQRJ98-Obx58zuuXpD68GLUOQ)
+    TOKEN = os.environ.get("TOKEN", "5901539309:AAHi49v-3IEQRJ98-Obx58zuuXpD68GLUOQ")
 
     try:
-        OWNER_ID = os.environ.get("OWNER_ID", 5620092357)
+        OWNER_ID = os.environ.get("OWNER_ID", "5620092357")
     except ValueError:
         raise Exception("Your OWNER_ID env variable is not a valid integer.")
     try:
@@ -44,12 +44,12 @@ if ENV:
     except ValueError:
         raise Exception("Your requester list does not contain valid integers.")
     try:
-        API_ID = int(os.environ.get("API_ID", 27926792))
+        API_ID = int(os.environ.get("API_ID", "27926792"))
     except ValueError:
         raise Exception("Your API_ID env variable is not a valid integer.")
 
     try:
-        API_HASH = os.environ.get("API_HASH", 71baac4bfd54337b396c525c9fb1c437)
+        API_HASH = os.environ.get("API_HASH", "71baac4bfd54337b396c525c9fb1c437")
     except ValueError:
         raise Exception("Please Add Hash Api key to start the bot")
 
